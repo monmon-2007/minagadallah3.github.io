@@ -116,6 +116,7 @@
 .center{
 
     margin-left:25%;
+    line-height: 30px;
 
     }
 
@@ -202,7 +203,3 @@ and networking is the next technical revolution.</p>
 </ul>
 </div>
 </div>
-
-
-<--! Christmas Eve/Sarajevo — Trans-Siberian Orchestra -->
-
