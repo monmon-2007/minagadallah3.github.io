@@ -113,6 +113,12 @@
 	text-align:center;
 	}
 
+.center{
+
+    margin-left:25%;
+
+    }
+
 
 
 
@@ -168,7 +174,7 @@ and networking is the next technical revolution.</p>
 <h2>What can I do???</h2>
 <p>Anything and everything, and that's why I had choosen Computer Science.</p>
 
-
+<div class="center">
 <ul style="color:white">
 	<li>JAVA/Python/C#</li>
 		<ul style="color:white">
@@ -194,7 +200,7 @@ and networking is the next technical revolution.</p>
 		</ul>
 
 </ul>
-
+</div>
 </div>
 
 
