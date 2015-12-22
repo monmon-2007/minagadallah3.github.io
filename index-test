@@ -14,35 +14,109 @@
    </script>
 </head>
 <style>
-
-
-.module {
-
-  background:
+#headerwrap {
+     background:
     linear-gradient(
       rgba(0, 0, 0, 0.6),
       rgba(0, 0, 0, 0.6)
-    ),
-    url("images/minafile4.jpg");
-  background-size: cover;
-  height: 100vh;
-
+    ), url("images/minafile4.jpg") no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#headerwrap h1 {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 140px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+#headerwrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#headerwrap i {
+    font-size: 35px;
+    color: #fff;
+}
+#headerwrap .spacer {
+    margin-top: 220px;
 }
 
-h2
-{
-	text-align: center;
- 	color: white;
-	font-size:200%;
-  	padding: 90px;
-  	color: yellow;
+#aboutme {
+    background:#0B4C5F no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    margin-top: -42px;
+    padding-top: 20px;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+#aboutme h1 {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
 }
-.module h4
-{
-	text-align: center;
-	margin-top: 25%;
+#aboutme h2 {
+    color: white;
+    text-align: left;
+    margin-left:25px;
 }
+
+#aboutme p{
+	  text-align: justify;
+	  color: whiteSmoke;
+	  font-size: 16px;
+	  width: 50%;
+	  margin: 0 auto;
+	}
+.circular{
+
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: -50px;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-webkit-transform: scale(.8);
+	-moz-border-radius: 150px;
+	background: url("images/minafile.jpg") no-repeat;
+	background-position:45% 39%;
+	text-align:center;
+	}
+
+
+
+
+
 
 </style>
 
@@ -63,12 +137,37 @@ h2
 	</div>
 
 
-<div class="module top">
-  <h2>Mina Gadallah</h2>
-
-
-  <h4><font style="font-size:200%" face="new times roman" color="yellow">Web Deveolper &nbsp &nbsp Software deveolper &nbsp &nbsp Explorer</font></h4>
+<div id="headerwrap">
+  <h1>Mina Gadallah</h1>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <h2>Web Deveolper &nbsp &nbsp Software deveolper &nbsp &nbsp Explorer</font></h2>
 </div>
+
+
+<div id="aboutme">
+	<h1>About Me</h1>
+	<div class="circular"></div>
+	<h2>Hey, They Call Me Mina!</h2>
+	<p>Computer Science is not just a major, but it's something that I enjoy doing.
+	I love designing, building and creating new things that make sense. I founded
+	the Computer Science Club with my Team work right after attending Hack RU 2014.
+	We liked that idea of having a hacker community and designer that have passion
+	for what they do. As any student want to have a job to support himself, I
+	started at First Credit Services INC as an IT support as a way to support
+	myself. However, it made me think deeper about networking, servers and
+	Computer Security. They also introduced me to their Developer team as I
+	worked along with them on our intranet. on the past year I went to different
+	hackathons in many different places such as New Jersey, Maryland, Chicago, Canada
+	and Finally Silicon Valley in San Francisco which was the end of the hacking Season
+	which I have designed "Blocky" along with my awesome team and we won Best Use
+	of Cyanogen Mod SDK, Now, in my junior year, i don't have as much time as I used
+	to before, However my outside learning didn't stop. I'm working on designing my
+	personal website that gets me more involved in java script, CSS and HTML and also
+	I started learning python network programming properties as I think the internet
+and networking is the next technical revolution.</p>
+
+</div>
+
 
 <--! Christmas Eve/Sarajevo — Trans-Siberian Orchestra -->
 
