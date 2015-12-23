@@ -64,7 +64,7 @@
     background-position: center center;
     margin-top: -42px;
     padding-top: 20px;
-    min-height: 650px;
+    min-height: 1200px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -120,10 +120,23 @@
 
     }
 
-
-
-
-
+#projects{
+    background:#0080FF no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    margin-top: -20px;
+    padding-top: 20px;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
 
 </style>
 
@@ -133,13 +146,12 @@
 <body>
 	<div id='cssmenu'>
 	<ul>
-	   <li><a href='#C5'><span>Contact</span></a></li>
-	   <li><a href='#'><span>Services</span></a></li>
+	   <li><a href='#C5'><span>Home</span></a></li>
+	   <li><a href='#'><span>aboutme</span></a></li>
 	   <li><a href='#C2'><span>Projects</span></a></li>
 	   <li><a href='#'><span>Research</span></a></li>
 	   <li><a href='C:\Users\support.tech\Desktop\minagadallah3.github.io\resume\Mina Junior-1.pdf'><span>Resume</span></a></li>
-	   <li><a href="#C4"><span>About me</span></a></li>
-	   <li><a href='#'><span>Home</span></a></li>
+	   <li><a href='#'><span>Contact</span></a></li>
 	</ul>
 	</div>
 
@@ -175,31 +187,34 @@ and networking is the next technical revolution.</p>
 <h2>What can I do???</h2>
 <p>Anything and everything, and that's why I had choosen Computer Science.</p>
 
-<div class="center">
-<ul style="color:white">
-	<li>JAVA/Python/C#</li>
+	<div class="center">
 		<ul style="color:white">
-			<li>SoftWare Devolping</li>
-			<li>Mobile Apps</li>
-			<li>Network Programing</li>
+		<li>JAVA/Python/C#</li>
+			<ul style="color:white">
+				<li>Software Devolping</li>
+				<li>Mobile Apps</li>
+				<li>Network Programing</li>
+			</ul>
+		<li>HTML/CSS</li>
+			<ul style="color:white">
+				<li>Web Devolping</li>
+				<li>web Application(In progress)</li>
+			</ul>
+		<li>C/MIPS</li>
+			<ul style="color:white">
+				<li>Machine language</li>
+				<li>Systems Programing</li>
+			</ul>
+		<li>IT Support</li>
+			<ul style="color:white">
+				<li>Data Center Migration</li>
+				<li>Network and VPN configuration</li>
+				<li>Side by Side software Training</li>
+			</ul>
 		</ul>
-	<li>HTML/CSS</li>
-		<ul style="color:white">
-			<li>Web Devolping</li>
-			<li>web Application(In progress)</li>
-		</ul>
-	<li>C/MIPS</li>
-		<ul style="color:white">
-			<li>Machine language</li>
-			<li>Systems Programing</li>
-		</ul>
-	<li>IT Support</li>
-		<ul style="color:white">
-			<li>Data Center Migration</li>
-			<li>Network and VPN configuration</li>
-			<li>Side by Side software Training</li>
-		</ul>
+	</div>
+</div>
 
-</ul>
-</div>
-</div>
+
+
+<div id="projects"></div>
