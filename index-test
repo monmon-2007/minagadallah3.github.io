@@ -121,12 +121,12 @@
     }
 
 #projects{
-    background:#0080FF no-repeat center top;
+    background:#0489B1 no-repeat center top;
     background-attachment: relative;
     background-position: center center;
     margin-top: -20px;
     padding-top: 20px;
-    min-height: 650px;
+    min-height: 850px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -138,6 +138,47 @@
     background-size: cover;
     }
 
+
+  #projects h1 {
+      margin-top: 25px;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  #projects h2 {
+      color: white;
+      text-align: left;
+      margin-left:25px;
+  }
+
+  div.img {
+      margin: 20px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 200px;
+  }
+
+  div.img:hover {
+      border: 1px solid #777;
+  }
+
+  div.img img {
+      width: 100%;
+      height: auto;
+  }
+
+  div.desc {
+      padding: 10px;
+      text-align: center;
+      color:white;
+      font-size:15px;
+  }
+
+
+
+
 </style>
 
 
@@ -147,7 +188,7 @@
 	<div id='cssmenu'>
 	<ul>
 	   <li><a href='#C5'><span>Home</span></a></li>
-	   <li><a href='#'><span>aboutme</span></a></li>
+	   <li><a href='#'><span>about Me</span></a></li>
 	   <li><a href='#C2'><span>Projects</span></a></li>
 	   <li><a href='#'><span>Research</span></a></li>
 	   <li><a href='C:\Users\support.tech\Desktop\minagadallah3.github.io\resume\Mina Junior-1.pdf'><span>Resume</span></a></li>
@@ -217,4 +258,50 @@ and networking is the next technical revolution.</p>
 
 
 
-<div id="projects"></div>
+<div id="projects">
+	<h1>Projects<h1>
+	<h2>Here are some of my most recent Projects<h2>
+
+<div class="center">
+	<div class="img">
+	  <a target="_blank" href="https://github.com/monmon-2007/blocky">
+	    <img src="E:\Mina Web\images\a1.png" alt="Trolltunga Norway" width="300" height="200">
+	  </a>
+	  <div class="desc">Blocky: Bitcoin wallet android app for easy accsess, send and recieve.</div>
+	</div>
+
+	<div class="img">
+	  <a target="_blank" href="https://github.com/monmon-2007/JSeal">
+	    <img src="E:\Mina Web\images\a2.bmp" alt="Forest" width="300" height="200">
+	  </a>
+	  <div class="desc">JSeal:Steganography application that allows a user to encode data into an existing image file.</div>
+	</div>
+
+	<div class="img">
+	  <a target="_blank" href="https://github.com/monmon-2007/Blitzfeed">
+	    <img src="E:\Mina Web\images\a3.png" alt="Northern Lights" width="300" height="200">
+	  </a>
+	  <div class="desc">BlitzFeed: Web learning application that helps to improve your reading skills in any language</div>
+	</div>
+
+	<div class="img">
+	  <a target="_blank" href="https://github.com/monmon-2007/JSeal">
+	    <img src="E:\Mina Web\images\a4.jpg" alt="Mountains" width="300" height="200">
+	  </a>
+	  <div class="desc">Multithreaded Bank system: simulation of a bank system client and server wrtien in c and runs on linux</div>
+	</div>
+</div>
+
+
+
+
+
+<h2>That's Not it!>><h2>
+<br><br>
+<h2>Check Out my Github in the contact section for more projects>><h2>
+
+</div>
+
+<div id="aboutme">
+	<h1>Research<h1>
+</div>
