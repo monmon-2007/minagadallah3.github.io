@@ -12,7 +12,23 @@
    <script
    	src="http://maps.googleapis.com/maps/api/js">
    </script>
+   <script>
+   function initialize()
+   {
+   var mapOpt = {
+     center:new google.maps.LatLng(40.4270774,-74.357378),scrollwheel: false,
+     zoom:12,
+     mapTypeId:google.maps.MapTypeId.ROADMAP
+     };
+   var map=new google.maps.Map(document.getElementById("googleMap"),mapOpt);
+   }
+
+   google.maps.event.addDomListener(window, 'load', initialize);
+   </script>
+
 </head>
+
+
 <style>
 #headerwrap {
      background:
@@ -227,12 +243,12 @@
 
 
 #contact{
-    background:#0489B1 no-repeat center top;
+    background:#0B2F3A no-repeat center top;
     background-attachment: relative;
     background-position: center center;
     margin-top: -20px;
     padding-top: 20px;
-    min-height: 850px;
+    min-height: 1020px;
     width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -261,8 +277,8 @@
   div.background
   {
   	background-color: #1C1C1C;
-  	width: 400px;
-	height: 500px;
+  	width: 450px;
+	min-height: 550px;
 	float:right;
 	margin-right: 10%;
 	background-attachment: relative;
@@ -273,7 +289,56 @@ div.background h3
 	color: white;
     text-align: center;
 }
+div.twitter
+{
+	margin-top: 1%;
+	margin-left: 5%;
+}
 
+
+
+div.background2
+  {
+  	background-color: #0B243B;
+  	width: 100px;
+	min-height: 50px;
+	background-attachment: relative;
+	}
+
+div.contactInfo
+{
+	padding:75px;
+	width: 25%;
+	background:#0B243B;
+	text-align: center;
+}
+div.contactInfo2
+{
+	padding:75px;
+	width: 25%;
+	background:#0B3861;
+	margin-top: -11.3%;
+	margin-left: 36.2%;
+	text-align: center;
+}
+div.contactInfo3
+{
+	padding:75px;
+	width: 18.5%;
+	background:#0B243B;
+	margin-top: -11.2%;
+	margin-left: 70.2%;
+	text-align: center;
+}
+div.socialMediaBar
+{
+
+	margin-left: 13%;
+	margin-top: -5.7%;
+	text-decoration: none;
+	word-spacing: 300px;
+
+}
 
 
 
@@ -355,7 +420,6 @@ and networking is the next technical revolution.</p>
 </div>
 
 
-
 <div id="projects">
 	<h1>Projects<h1>
 	<h2>Here are some of my most recent Projects<h2>
@@ -424,5 +488,36 @@ and networking is the next technical revolution.</p>
 	<h1>Contact</h1>
 	<div class="background">
 		<h3>Where You Will Find Me!<h3>
+		<BR>&nbsp;<BR>
+		<p>Sayreville, NJ,</p>
+		<p2><font color="whiteSmoke">United States.</style></p2>
+		<BR>&nbsp;<BR>
+		<p>Phone: +1-732-***-**** </p>
+		<p>Email:<a href="mailto:minamonir11@hotmail.com"><font  face="new times roman" color="red"> minamonir11@hotmail.com</font></a></p>
+		<BR>&nbsp;<BR><BR>&nbsp;<BR>
+		<h8><font style="font-size:190%;margin-left: 10%;" face="new times roman" color="#A9E2F3">Twitter..Why Not!</font></h8>
+		<BR>&nbsp;<BR>
+		<p>Don't feel like going to Twitter right now!</p>
+		<p>Hmmmm, I gotchu Just Tweet at me on the right Box</p>
+		<p2><font color="#A9E2F3" style="margin-left: 45%;">OR </style></p2>
+		<p><font style="margin-left: 9%;">Flllow Me on Twitter @nopmina </style></p>
 	</div>
+		<div id="googleMap" style="width:515px;height:320px;margin-left: 5%;"></div>
+		<div class="twitter">
+		<a class="twitter-timeline" href="https://twitter.com/nopmina" data-widget-id="666714763469201408">Tweets by @nopmina</a>
+		</div>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+<!--
+			<div class="socialMediaBar">
+		<div class="contactInfo"><h8><a href='https://www.facebook.com/minamounir11'><font style="font-size:200%;text-decoration: none; blod;word-spacing: -300px;" face="new times roman" color="white">FACEBOOK</font></a></h8></div>
+		<div class="contactInfo2"><h8><a href='https://www.linkedin.com/in/mina-gadallah-0a8a5b88'><font style="font-size:200%;text-decoration: none; blod;" face="new times roman" color="white">LinkedIN</font></a></h8></div>
+		<div class="contactInfo3"><h8><a href='https://github.com/monmon-2007'><font style="font-size:200%;text-decoration: none; blod;" face="new times roman" color="white">GitHub</font></a></h8></div>
+			</div>
+-->
+<div class="background2"></div>
+
+
+
 </div>
