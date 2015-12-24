@@ -178,6 +178,104 @@
 
 
 
+  #research {
+      background:#0B4C5F no-repeat center top;
+      background-attachment: relative;
+      background-position: center center;
+      margin-top: -20px;
+      padding-top: 20px;
+      min-height: 730px;
+      width: 100%;
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  #research h1 {
+      margin-top: 25px;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  #research h2 {
+      color: white;
+      text-align: left;
+      margin-left:25px;
+  }
+
+  #research p{
+  	  text-align: justify;
+  	  color: whiteSmoke;
+  	  font-size: 16px;
+  	  width: 50%;
+  	  margin: 0 auto;
+	}
+
+
+  div.img2 {
+        margin: center;
+        float: left;
+        width: 200px;
+  }
+
+
+#contact{
+    background:#0489B1 no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    margin-top: -20px;
+    padding-top: 20px;
+    min-height: 850px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+
+  #contact h1 {
+      margin-top: 25px;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  #contact h2 {
+      color: white;
+      text-align: left;
+      margin-left:25px;
+  }
+  div.background
+  {
+  	background-color: #1C1C1C;
+  	width: 400px;
+	height: 500px;
+	float:right;
+	margin-right: 10%;
+	background-attachment: relative;
+	}
+
+div.background h3
+{
+	color: white;
+    text-align: center;
+}
+
+
+
 
 </style>
 
@@ -302,6 +400,29 @@ and networking is the next technical revolution.</p>
 
 </div>
 
-<div id="aboutme">
+<div id="research">
 	<h1>Research<h1>
+	<h2>DriveAI:<h2>
+	<p> DriveAI is a 501(c)(3) nonprofit organization dedicated
+	to the research and development of autonomous vehicles. We're bringing the
+	community together to understand and build autonomous vehicles in an open way.</P>
+	<h2>Updates:<h2>
+	<p>December is going to be another busy month for our student members with final
+	exams approaching. We will, however, be holding a board meeting to discuss the
+	direction we'll be taking in 2016. We'll also be reviewing our finances and creating
+	a budget and presentation materials for another pitch to our primary sponsor </P>
+	<br><br><p>For More Information Please click  <a href="http://www.driveai.org">here.</a></p>
+
+<div class="center">
+	<div class="img2">
+	    <img src="E:\Mina Web\images\driveai.png" alt="Trolltunga Norway" width="200" height="200">
+	 </div></div>
+</div>
+
+
+<div id="contact">
+	<h1>Contact</h1>
+	<div class="background">
+		<h3>Where You Will Find Me!<h3>
+	</div>
 </div>
