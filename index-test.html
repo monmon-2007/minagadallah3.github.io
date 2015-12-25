@@ -1,0 +1,523 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="styles.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <title>::MINA GADALLAH::</title>
+   <body style="background-color:#E9F2F5">
+   <script
+   	src="http://maps.googleapis.com/maps/api/js">
+   </script>
+   <script>
+   function initialize()
+   {
+   var mapOpt = {
+     center:new google.maps.LatLng(40.4270774,-74.357378),scrollwheel: false,
+     zoom:12,
+     mapTypeId:google.maps.MapTypeId.ROADMAP
+     };
+   var map=new google.maps.Map(document.getElementById("googleMap"),mapOpt);
+   }
+
+   google.maps.event.addDomListener(window, 'load', initialize);
+   </script>
+
+</head>
+
+
+<style>
+#headerwrap {
+     background:
+    linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ), url("images/minafile4.jpg") no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 650px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#headerwrap h1 {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 140px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+#headerwrap h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+#headerwrap i {
+    font-size: 35px;
+    color: #fff;
+}
+#headerwrap .spacer {
+    margin-top: 220px;
+}
+
+#aboutme {
+    background:#0B4C5F no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    margin-top: -42px;
+    padding-top: 20px;
+    min-height: 1200px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#aboutme h1 {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-align: center;
+}
+#aboutme h2 {
+    color: white;
+    text-align: left;
+    margin-left:25px;
+}
+
+#aboutme p{
+	  text-align: justify;
+	  color: whiteSmoke;
+	  font-size: 16px;
+	  width: 50%;
+	  margin: 0 auto;
+	}
+.circular{
+
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: -50px;
+	width: 200px;
+	height: 200px;
+	border-radius: 150px;
+	-webkit-border-radius: 150px;
+	-webkit-transform: scale(.8);
+	-moz-border-radius: 150px;
+	background: url("images/minafile.jpg") no-repeat;
+	background-position:45% 39%;
+	text-align:center;
+	}
+
+.center{
+
+    margin-left:25%;
+    line-height: 30px;
+
+    }
+
+#projects{
+    background:#0489B1 no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    margin-top: -20px;
+    padding-top: 20px;
+    min-height: 850px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+
+  #projects h1 {
+      margin-top: 25px;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  #projects h2 {
+      color: white;
+      text-align: left;
+      margin-left:25px;
+  }
+
+  div.img {
+      margin: 20px;
+      border: 1px solid #ccc;
+      float: left;
+      width: 200px;
+  }
+
+  div.img:hover {
+      border: 1px solid #777;
+  }
+
+  div.img img {
+      width: 100%;
+      height: auto;
+  }
+
+  div.desc {
+      padding: 10px;
+      text-align: center;
+      color:white;
+      font-size:15px;
+  }
+
+
+
+  #research {
+      background:#0B4C5F no-repeat center top;
+      background-attachment: relative;
+      background-position: center center;
+      margin-top: -20px;
+      padding-top: 20px;
+      min-height: 730px;
+      width: 100%;
+      -webkit-background-size: 100%;
+      -moz-background-size: 100%;
+      -o-background-size: 100%;
+      background-size: 100%;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+
+  #research h1 {
+      margin-top: 25px;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  #research h2 {
+      color: white;
+      text-align: left;
+      margin-left:25px;
+  }
+
+  #research p{
+  	  text-align: justify;
+  	  color: whiteSmoke;
+  	  font-size: 16px;
+  	  width: 50%;
+  	  margin: 0 auto;
+	}
+
+
+  div.img2 {
+        margin: center;
+        float: left;
+        width: 200px;
+  }
+
+
+#contact{
+    background:#0B2F3A no-repeat center top;
+    background-attachment: relative;
+    background-position: center center;
+    margin-top: -20px;
+    padding-top: 20px;
+    min-height: 1020px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+
+  #contact h1 {
+      margin-top: 25px;
+      color: #fff;
+      font-size: 70px;
+      font-weight: 700;
+      letter-spacing: 3px;
+      text-align: center;
+  }
+  #contact h2 {
+      color: white;
+      text-align: left;
+      margin-left:25px;
+  }
+  div.background
+  {
+  	background-color: #1C1C1C;
+  	width: 450px;
+	min-height: 550px;
+	float:right;
+	margin-right: 10%;
+	background-attachment: relative;
+	}
+
+div.background h3
+{
+	color: white;
+    text-align: center;
+}
+div.twitter
+{
+	margin-top: 1%;
+	margin-left: 5%;
+}
+
+
+
+div.background2
+  {
+  	background-color: #0B243B;
+  	width: 100px;
+	min-height: 50px;
+	background-attachment: relative;
+	}
+
+div.contactInfo
+{
+	padding:75px;
+	width: 25%;
+	background:#0B243B;
+	text-align: center;
+}
+div.contactInfo2
+{
+	padding:75px;
+	width: 25%;
+	background:#0B3861;
+	margin-top: -11.3%;
+	margin-left: 36.2%;
+	text-align: center;
+}
+div.contactInfo3
+{
+	padding:75px;
+	width: 18.5%;
+	background:#0B243B;
+	margin-top: -11.2%;
+	margin-left: 70.2%;
+	text-align: center;
+}
+div.socialMediaBar
+{
+
+	margin-left: 13%;
+	margin-top: -5.7%;
+	text-decoration: none;
+	word-spacing: 300px;
+
+}
+
+
+
+</style>
+
+
+
+
+<body>
+	<div id='cssmenu'>
+	<ul>
+	   <li><a href='#C5'><span>Home</span></a></li>
+	   <li><a href='#'><span>about Me</span></a></li>
+	   <li><a href='#C2'><span>Projects</span></a></li>
+	   <li><a href='#'><span>Research</span></a></li>
+	   <li><a href='C:\Users\support.tech\Desktop\minagadallah3.github.io\resume\Mina Junior-1.pdf'><span>Resume</span></a></li>
+	   <li><a href='#'><span>Contact</span></a></li>
+	</ul>
+	</div>
+
+
+<div id="headerwrap">
+  <h1>Mina Gadallah</h1>
+  <br><br><br><br><br><br><br><br><br><br><br>
+  <h2>Web Deveolper &nbsp &nbsp Software deveolper &nbsp &nbsp Explorer</font></h2>
+</div>
+
+
+<div id="aboutme">
+	<h1>About Me</h1>
+	<div class="circular"></div>
+	<h2>Hey, They Call Me Mina!</h2>
+	<p>Computer Science is not just a major, but it's something that I enjoy doing.
+	I love designing, building and creating new things that make sense. I founded
+	the Computer Science Club with my Team work right after attending Hack RU 2014.
+	We liked that idea of having a hacker community and designer that have passion
+	for what they do. As any student want to have a job to support himself, I
+	started at First Credit Services INC as an IT support as a way to support
+	myself. However, it made me think deeper about networking, servers and
+	Computer Security. They also introduced me to their Developer team as I
+	worked along with them on our intranet. on the past year I went to different
+	hackathons in many different places such as New Jersey, Maryland, Chicago, Canada
+	and Finally Silicon Valley in San Francisco which was the end of the hacking Season
+	which I have designed "Blocky" along with my awesome team and we won Best Use
+	of Cyanogen Mod SDK, Now, in my junior year, i don't have as much time as I used
+	to before, However my outside learning didn't stop. I'm working on designing my
+	personal website that gets me more involved in java script, CSS and HTML and also
+	I started learning python network programming properties as I think the internet
+and networking is the next technical revolution.</p>
+<h2>What can I do???</h2>
+<p>Anything and everything, and that's why I had choosen Computer Science.</p>
+
+	<div class="center">
+		<ul style="color:white">
+		<li>JAVA/Python/C#</li>
+			<ul style="color:white">
+				<li>Software Devolping</li>
+				<li>Mobile Apps</li>
+				<li>Network Programing</li>
+			</ul>
+		<li>HTML/CSS</li>
+			<ul style="color:white">
+				<li>Web Devolping</li>
+				<li>web Application(In progress)</li>
+			</ul>
+		<li>C/MIPS</li>
+			<ul style="color:white">
+				<li>Machine language</li>
+				<li>Systems Programing</li>
+			</ul>
+		<li>IT Support</li>
+			<ul style="color:white">
+				<li>Data Center Migration</li>
+				<li>Network and VPN configuration</li>
+				<li>Side by Side software Training</li>
+			</ul>
+		</ul>
+	</div>
+</div>
+
+
+<div id="projects">
+	<h1>Projects<h1>
+	<h2>Here are some of my most recent Projects<h2>
+
+<div class="center">
+	<div class="img">
+	  <a target="_blank" href="https://github.com/monmon-2007/blocky">
+	    <img src="E:\Mina Web\images\a1.png" alt="Trolltunga Norway" width="300" height="200">
+	  </a>
+	  <div class="desc">Blocky: Bitcoin wallet android app for easy accsess, send and recieve.</div>
+	</div>
+
+	<div class="img">
+	  <a target="_blank" href="https://github.com/monmon-2007/JSeal">
+	    <img src="E:\Mina Web\images\a2.bmp" alt="Forest" width="300" height="200">
+	  </a>
+	  <div class="desc">JSeal:Steganography application that allows a user to encode data into an existing image file.</div>
+	</div>
+
+	<div class="img">
+	  <a target="_blank" href="https://github.com/monmon-2007/Blitzfeed">
+	    <img src="E:\Mina Web\images\a3.png" alt="Northern Lights" width="300" height="200">
+	  </a>
+	  <div class="desc">BlitzFeed: Web learning application that helps to improve your reading skills in any language</div>
+	</div>
+
+	<div class="img">
+	  <a target="_blank" href="https://github.com/monmon-2007/JSeal">
+	    <img src="E:\Mina Web\images\a4.jpg" alt="Mountains" width="300" height="200">
+	  </a>
+	  <div class="desc">Multithreaded Bank system: simulation of a bank system client and server wrtien in c and runs on linux</div>
+	</div>
+</div>
+
+
+
+
+
+<h2>That's Not it!>><h2>
+<br><br>
+<h2>Check Out my Github in the contact section for more projects>><h2>
+
+</div>
+
+<div id="research">
+	<h1>Research<h1>
+	<h2>DriveAI:<h2>
+	<p> DriveAI is a 501(c)(3) nonprofit organization dedicated
+	to the research and development of autonomous vehicles. We're bringing the
+	community together to understand and build autonomous vehicles in an open way.</P>
+	<h2>Updates:<h2>
+	<p>December is going to be another busy month for our student members with final
+	exams approaching. We will, however, be holding a board meeting to discuss the
+	direction we'll be taking in 2016. We'll also be reviewing our finances and creating
+	a budget and presentation materials for another pitch to our primary sponsor </P>
+	<br><br><p>For More Information Please click  <a href="http://www.driveai.org">here.</a></p>
+
+<div class="center">
+	<div class="img2">
+	    <img src="E:\Mina Web\images\driveai.png" alt="Trolltunga Norway" width="200" height="200">
+	 </div></div>
+</div>
+
+
+<div id="contact">
+	<h1>Contact</h1>
+	<div class="background">
+		<h3>Where You Will Find Me!<h3>
+		<BR>&nbsp;<BR>
+		<p>Sayreville, NJ,</p>
+		<p2><font color="whiteSmoke">United States.</style></p2>
+		<BR>&nbsp;<BR>
+		<p>Phone: +1-732-***-**** </p>
+		<p>Email:<a href="mailto:minamonir11@hotmail.com"><font  face="new times roman" color="red"> minamonir11@hotmail.com</font></a></p>
+		<BR>&nbsp;<BR><BR>&nbsp;<BR>
+		<h8><font style="font-size:190%;margin-left: 10%;" face="new times roman" color="#A9E2F3">Twitter..Why Not!</font></h8>
+		<BR>&nbsp;<BR>
+		<p>Don't feel like going to Twitter right now!</p>
+		<p>Hmmmm, I gotchu Just Tweet at me on the right Box</p>
+		<p2><font color="#A9E2F3" style="margin-left: 45%;">OR </style></p2>
+		<p><font style="margin-left: 9%;">Flllow Me on Twitter @nopmina </style></p>
+	</div>
+		<div id="googleMap" style="width:515px;height:320px;margin-left: 5%;"></div>
+		<div class="twitter">
+		<a class="twitter-timeline" href="https://twitter.com/nopmina" data-widget-id="666714763469201408">Tweets by @nopmina</a>
+		</div>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+<!--
+			<div class="socialMediaBar">
+		<div class="contactInfo"><h8><a href='https://www.facebook.com/minamounir11'><font style="font-size:200%;text-decoration: none; blod;word-spacing: -300px;" face="new times roman" color="white">FACEBOOK</font></a></h8></div>
+		<div class="contactInfo2"><h8><a href='https://www.linkedin.com/in/mina-gadallah-0a8a5b88'><font style="font-size:200%;text-decoration: none; blod;" face="new times roman" color="white">LinkedIN</font></a></h8></div>
+		<div class="contactInfo3"><h8><a href='https://github.com/monmon-2007'><font style="font-size:200%;text-decoration: none; blod;" face="new times roman" color="white">GitHub</font></a></h8></div>
+			</div>
+-->
+<div class="background2"></div>
+
+
+
+</div>
